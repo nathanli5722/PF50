@@ -1,6 +1,6 @@
 Download as zip
-Extract
 
+Extract
 
 
 Go to Extension Manager
