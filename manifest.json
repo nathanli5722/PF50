@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Performance50",
+    "version": "1.0",
+    "description": "Displays Performance Points on osuCollector, and the osu!page",
+    "permissions": ["activeTab", "storage"],
+    "content_scripts": [
+      {
+        "matches": ["https://osucollector.com/*/*", "https://osucollector.com/"],
+        "js": ["scriptBinarySearch.js"]
+      },
+      {
+        "matches": ["https://osu.ppy.sh/beatmapsets/*/*", "https://osu.ppy.sh/beatmapsets", "https://osu.ppy.sh/beatmapsets/*"],
+        "js": ["scriptOsuWeb.js"]
+      }
+    ],
+	"action": {
+		"default_popup": "index.html"
+	}, 
+    "background": {
+      "service-worker": "start-up.js"
+    },
+	 "icons": {
+		"48": "48PX.png",
+		"64": "64PX.png",
+		"128": "128PX.png"
+	 }
+  }

@@ -1,0 +1,55 @@
+html
+{
+    width: 350px;  /* max: 800px */
+    height: 500px; /* max: 600px */
+	background: #35324c;
+	color: #ffffff;
+}
+body
+{
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	
+}
+h1
+{
+	background: #011433;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: 10px;
+	border-radius: 25px;
+}
+.heading
+{
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: Ubuntu, serif;
+}
+.content
+{
+	border-style: solid;
+	border-width: 12px;
+	border-color: #35324c;
+	border-radius: 40px;
+	background: #011433;
+}
+.content div
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 20px 20px 20px 20px;
+	border-radius: 20px;
+	background: #011433;
+	border: .5px white solid;
+	transition: all 0.2s ease-in-out;
+	font-size: 15px;
+}
+.content div:hover
+{
+	transform: translate3d(0, -10px, 30px);
+}
+
+input
+{
+ display: none;
+}
