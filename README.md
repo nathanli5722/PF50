@@ -1,10 +1,16 @@
-Download as zip
+A Chrome Extension built to display Osu! game PP on The Official beatmap listing, and OsuCollector.
+Usage of Popup for beatmap modifiers.
 
-Extract
 
+
+
+GETTING THE EXTENSION (i can't afford 5$ for webstore)
+
+Download as zip & Extract
 
 Go to Extension Manager
 (You can usually find it in the browser settings)
+
 
 
 Go to Load Unpacked, and select the folder with the manifest.json file.
